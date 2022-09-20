@@ -1,0 +1,32 @@
+**/*.bak
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+main/__pycache__/
+main/**/__pycache__/
+
+
+staticfiles/*
+
+
+
+webapp/__pycache__/
+webapp/**/__pycache__/
+
+Pipfile.lock
+
+# Visual Studio Code # 
+# .vscode/* 
+.vscode/settings.json 
+.vscode/tasks.json 
+.vscode/launch.json 
+.vscode/extensions.json 
+.history
+
+.env

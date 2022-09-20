@@ -1,0 +1,8 @@
+env/*node_modules/*
+**/*.log
+**/bower_components/*
+.DS_Store
+config.js
+**/*.bak
+*.bak
+package-lock.json
