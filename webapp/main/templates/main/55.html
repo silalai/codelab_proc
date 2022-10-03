@@ -1,0 +1,27 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<div class="container">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <h2>โปรดส่งใครมาช่วยฉันที</h2>
+    <h5>ส่งเรื่องราวของคุณมาแล้วเราจะตอบกลับไป</h5>
+    <div class="col-md-6 mb-3">
+        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+    </div>
+    <script>
+      document.getElementById('firstName').value = 'ข้อความที่จะฝากไว้ให้เธอ';
+    </script>
+    <div class="col-md-6 mb-3">
+      <input type="text" class="form-control" id="massage" placeholder="" value="" required>
+    </div>
+    <script>
+    document.getElementById('massage').value = 'บอกชื่อเทอกับฉัน';
+    </script>
+
+    <input type="button" value="ส่ง" onclick="javascript:window.location='http://localhost:8000/';">
+     </div>
+</div>
+
+{% endblock %}
+
